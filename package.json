@@ -1,0 +1,18 @@
+{
+  "name": "@dothq/sqb",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/dothq/sql-query-builder",
+  "author": "EnderDev <42723993+EnderDev@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "dependencies": {
+    "sqlstring": "^2.3.2"
+  },
+  "devDependencies": {
+    "@types/sqlstring": "^2.3.0"
+  }
+}
